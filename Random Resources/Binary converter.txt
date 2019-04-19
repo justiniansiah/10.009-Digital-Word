@@ -1,0 +1,9 @@
+#CONVERT BINARY TO INT
+
+binarynum = '1011'
+print int(binarynum,2)
+
+
+#CONVERT INT TO BINARY
+
+print bin(11)[2:]

@@ -1,0 +1,20 @@
+1)How to create a list?
+list = []
+
+2)How to get the length of a list?
+len(list)
+
+3)How to access (eg.print) the nth element?
+print list[n]
+
+4)How to modify the nth element?
+list[n] = blah
+
+5)How to add into a list?
+list.append (add)
+list.extend ([another list])
+list.insert(add,location)
+
+6)How to delete an element in a list?
+list.remove
+list.pop(n)

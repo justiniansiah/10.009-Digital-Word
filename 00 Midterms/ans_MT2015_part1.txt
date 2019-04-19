@@ -1,0 +1,18 @@
+q.1
+
+b = a # (i)c = a[:] # (ii)d = copy.deepcopy(a) # (iii)
+
+(i) b and a share the same data; no data replication; change in b will propagate to a (and vice versa)
+(ii) only data replication at the top level.  c and a share all data except the top level.  
+(iii) data replication at all level. no data sharing between d and a.  change in d will not affect a (and vice versa)
+
+q.2
+
+no update of leftObstacle, rightObstacle inside while loop.
+
+should have: 
+
+  leftObstacle, rightObstacle = finch.obstacle()
+
+inside the while loop
+
